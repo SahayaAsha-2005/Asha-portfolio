@@ -51,11 +51,11 @@ body{
 }
 
 a,a:hover,a:active,a:focus {
-	display:inline-block;
+	
 	text-decoration:none;
 	color: #6a708e;
 	font-size:16px;
-	padding:0;
+
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
@@ -96,7 +96,21 @@ html,body{
   transition: opacity 0.3s 0.3s ease; 
   opacity: 0;
 }
+.logo-icon{
+     background: linear-gradient(90deg, #4a6cf7 0%, #a34cf7 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        position: relative;
 
+}
+.logo-text {
+     background: linear-gradient(90deg, #4a6cf7 0%, #a34cf7 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        position: relative;
+}
 .fix{position: relative;clear: both;}
 /*=============Style css=========*/
 
@@ -715,75 +729,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 /*--contct button--*/
-.contact-form .single-contact-btn {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    height:50px;
-    text-transform:capitalize;
-    margin-top: 3px;
-    background: #100a65;
-    border: 1px solid #100a65;
-    cursor:pointer;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
-     -webkit-transition: .5s; 
-    -moz-transition:.5s; 
-    -ms-transition:.5s; 
-    -o-transition:.5s;
-    transition: .5s;
-}
-.contact-form .single-contact-btn .contact-btn ,
-.contact-form .single-contact-btn .contact-btn:focus {
-    margin-top:0px;
-    outline: 0 !important;
-    border:0;
-    color: #fff;
-    border-radius: 0px;
-    font-size:14px;
-    -webkit-transition: .5s; 
-    -moz-transition:.5s; 
-    -ms-transition:.5s; 
-    -o-transition:.5s;
-    transition: .5s;
-    
-}
-.single-contact-btn:hover{
-    background: #2c21c7;
-    border: 1px solid #1b1751;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
-}
-
-/*--contct button--*/
-
-/* contact-adress */
-.contact-add-head h3 {
-    font-size:  24px;
-    color:  #3c4258;
-}
-.contact-add-head p {
-    font-size:  16px;
-    text-transform: capitalize;
-    color:  #636a82;
-    font-weight:  300;
-    margin-top:  6px;
-}
-/* contact-adress */
-
-/*.contact-add-info */
-.contact-add-info { margin: 42px 0 52px;}
-.single-contact-add-info h3 {
-    color:  #636a82;
-    font-weight:  500;
-}
-.single-contact-add-info p {
-    color:  #999fb3;
-    font-size:  16px;
-    margin-top:  18px;
-}
-.single-contact-add-info {
-    margin-bottom:  26px;
-}
-/*.contact-add-info */
 
 /*hm-foot-icon*/
 .hm-foot-icon {
@@ -1127,6 +1072,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     visibility: visible;
     top: -40px;
 }
+
+/*  */
+
+
+/*  */
 
 .github { background: #333; }
 .linkedin { background: #0077B5; }
